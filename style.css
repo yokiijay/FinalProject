@@ -62,7 +62,6 @@ h1{
   text-align: center;
   font-size: 6vw;
   font-family: 'Permanent Marker', cursive;
-  padding-top: 2vh;
   padding-bottom: 1vh;
   color: #1b2863;
 }
@@ -72,7 +71,10 @@ h1{
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 6vw;
-  padding: 5vh;
+  padding-top: 5vh;
+  padding-right: 5vh;
+  padding-left: 5vh;
+  padding-bottom: 2vh;
 }
 
 .definition {
@@ -100,7 +102,6 @@ hr{
   font-size: 3vh;
   font-family: 'Dancing Script', cursive;
   color: #1b2863;
-  text-decoration: none;
 }
 
 .transition-fade {
