@@ -25,6 +25,7 @@ a{
   grid-template-rows: repeat(8, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  place-items: center;
 }
 
 .div1 {grid-area: 2 / 3 / 3 / 4; }
@@ -51,15 +52,18 @@ h1{
 #dropdowns {
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
 .dropdownContent {
-  display: none;
+  /* display: none; */
+  visibility: hidden;
   position: absolute;
-  background-image: url("dropdownbg.jpg");
+  background: rgb(229, 238, 250);
+  /* background-image: url("dropdownbg.jpg"); */
   min-width: 30vw;
   max-height: 22vh;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.14);
   padding: 12px 16px;
   z-index: 1;
   overflow: auto;
@@ -69,7 +73,18 @@ h1{
 }
 
 #dropdowns:hover .dropdownContent {
-  display: block;
+  /* display: block; */
+  visibility: visible;
+}
+
+.dropdownContent p {
+  margin: 0;
+}
+.dropdownContent p:first-child {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 2.8vh;
 }
 
 .title{
