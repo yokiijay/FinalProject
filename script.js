@@ -1,12 +1,12 @@
 /* -------------------------- Examples page -------------------------- */
 
-// swup.on('pageView', ()=>{
-  
-// })
-
 const dropdowns = document.querySelectorAll('#dropdowns')
+const dropdownsInnerHTML = [...dropdowns].map(item=>item.innerHTML).sort(()=>.5-Math.random())
 
-Array.from(dropdowns).forEach(item=>{
+Array.from(dropdowns).forEach((item, index)=>{
+
+  item.innerHTML = dropdownsInnerHTML[index]
+
   const currentDropdown = item
   const currentContent = currentDropdown.querySelector('.dropdownContent')
 
