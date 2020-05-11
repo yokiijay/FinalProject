@@ -18,8 +18,8 @@ Array.from(dropdowns).forEach(item=>{
 
   currentDropdown.addEventListener('mouseover', ev=>{
     const contentRect = currentContent.getBoundingClientRect()
-    const maxWidth = window.innerWidth - 15
-    const maxHeight = window.innerHeight - 15
+    const maxWidth = window.innerWidth - 20
+    const maxHeight = window.innerHeight - 20
 
     if(contentRect.bottom > maxHeight && contentRect.right > maxWidth){
       currentContent.style.transform = `translateY(${-10-currentDropdown.offsetHeight-contentRect.height}px) translateX(${maxWidth-contentRect.right-15}px)`

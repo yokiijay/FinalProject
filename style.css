@@ -151,6 +151,10 @@ html.is-leaving .transition-fade {
 /* Home page style */
 
 /* Examples page style */
+.example {
+  overflow: hidden;
+}
+
 .back {
   font-size: 13px;
   position: absolute;
