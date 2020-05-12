@@ -3,11 +3,86 @@ const swup = new Swup()
 
 swup.on('pageView', ()=>{
   const dropdowns = document.querySelectorAll('#dropdowns')
-  const dropdownsInnerHTML = [...dropdowns].map(item=>item.innerHTML).sort(()=>.5-Math.random())
+  // const dropdownsInnerHTML = [...dropdowns].map(item=>item.innerHTML).sort(()=>.5-Math.random())
+
+  const data = [
+    {
+      h1: 'MeToo',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'Hoo',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'Zoo',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'Eoo',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'Coo',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'Uoo',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'Uii',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'MMMe',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'hahaha',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'nonono',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+    {
+      h1: 'ohohooh',
+      p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
+      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    },
+  ]
+
+  // 随机生成newData 打乱顺序
+  const newData = data.sort(()=>{
+    return 0.5 - Math.random()
+  })
+
+  // 数据插入DOM
+  for(let i=0;i<dropdowns.length;i++){
+    dropdowns[i].innerHTML = `
+    <h1>${data[i].h1}</h1>
+    <div class="dropdownContent">
+      <div class="p1">${data[i].p1}</div>
+      <div class="p2">${data[i].p2}</div>
+      <a href="https://twitter.com/search?q=%23BlackLivesMatter&src=typeahead_click">See more</a>
+    </div>
+    `
+  }
   
   Array.from(dropdowns).forEach((item, index)=>{
 
-    item.innerHTML = dropdownsInnerHTML[index]
+    // item.innerHTML = dropdownsInnerHTML[index]
 
     const currentDropdown = item
     const currentContent = currentDropdown.querySelector('.dropdownContent')
