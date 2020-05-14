@@ -8,57 +8,68 @@ const data = [
   {
     h1: 'MeToo',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'http://www.baidu.com'
   },
   {
     h1: 'Hoo',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'http://www.taobao.com'
   },
   {
     h1: 'Zoo',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'http://www.baidu.com'
   },
   {
     h1: 'Eoo',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'http://www.taobao.com'
   },
   {
     h1: 'Coo',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'http://www.baidu.com'
   },
   {
     h1: 'Uoo',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'http://www.taobao.com'
   },
   {
     h1: 'Uii',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'http://www.baidu.com'
   },
   {
     h1: 'MMMe',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'http://www.taobao.com'
   },
   {
     h1: 'hahaha',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'http://www.baidu.com'
   },
   {
     h1: 'nonono',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'https://twitter.com/search?q=%23SayHerName&src=typed_query'
   },
   {
     h1: 'ohohooh',
     p1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas impedit inventore omnis architecto vel? Deleniti minima laborum rerum amet nisi iste ab impedit illo omnis, nobis esse veritatis alias?',
-    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!'
+    p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis quaerat minima nobis officia, iusto praesentium officiis recusandae. Repellat sint id, blanditiis dolorum voluptatibus qui voluptates nemo. Assumenda, quam eligendi!',
+    href: 'https://twitter.com/search?q=%23SayHerName&src=typed_query'
   },
 ]
 
@@ -74,7 +85,7 @@ for(let i=0;i<dropdowns.length;i++){
   <div class="dropdownContent">
     <div class="p1">${data[i].p1}</div>
     <div class="p2">${data[i].p2}</div>
-    <a href="https://twitter.com/search?q=%23BlackLivesMatter&src=typeahead_click">See more</a>
+    <a href="${data[i].href}">See more</a>
   </div>
   `
 }

@@ -54,6 +54,9 @@ h1{
   display: inline-block;
   cursor: pointer;
 }
+#dropdowns a {
+  text-decoration: underline;
+}
 
 .dropdownContent {
   /* display: none; */
